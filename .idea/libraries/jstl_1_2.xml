@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="jstl-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jxl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mchange-commons-java-0.2.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.13-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-3.6.6.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-3.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ojdbc6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
