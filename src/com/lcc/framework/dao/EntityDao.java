@@ -10,7 +10,11 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.lcc.framework.model.AbstractEntity;
 import com.lcc.framework.util.LogUtil;
+import com.lcc.framework.validate.ValidateContext;
+import com.lcc.framework.validate.annotation.Validation;
+import com.lcc.framework.validate.annotation.Validations;
 import org.hibernate.Criteria;
 import org.hibernate.LockMode;
 import org.hibernate.Query;
@@ -134,8 +138,7 @@ public class EntityDao<T> implements Serializable  {
                                            String propertyName, Object newValue) {
         if (newValue == null)
             return true;
-        Object object = findUniqueByProperty(persistentClass, propertyName,
-                newValue);
+        Object object = findUniqueByProperty(persistentClass, propertyName, newValue);
         return (object == null);
     }
 
@@ -190,8 +193,7 @@ public class EntityDao<T> implements Serializable  {
     private static String removeSelect(String hql) {
         Assert.hasText(hql);
         int beginPos = hql.toLowerCase().indexOf("from");
-        Assert.isTrue(beginPos != -1, " hql : " + hql
-                + " must has a keyword 'from'");
+        Assert.isTrue(beginPos != -1, " hql : " + hql + " must has a keyword 'from'");
         return hql.substring(beginPos);
     }
 
@@ -202,8 +204,7 @@ public class EntityDao<T> implements Serializable  {
      */
     private static String removeOrders(String hql) {
         Assert.hasText(hql);
-        Pattern p = Pattern.compile("order\\s*by[\\w|\\W|\\s|\\S]*",
-                Pattern.CASE_INSENSITIVE);
+        Pattern p = Pattern.compile("order\\s*by[\\w|\\W|\\s|\\S]*", Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(hql);
         StringBuffer sb = new StringBuffer();
         while (m.find()) {
@@ -219,13 +220,11 @@ public class EntityDao<T> implements Serializable  {
      * @param pageNo
      *            页号,从1开始.
      */
-    public static Page pagedQuery(String hql, int pageNo, int pageSize,
-                                  Object... values) {
+    public static Page pagedQuery(String hql, int pageNo, int pageSize, Object... values) {
         Assert.hasText(hql);
         Assert.isTrue(pageNo >= 1, "pageNo should start from 1");
         // Count查询
-        String countQueryString = " select count (*) "
-                + removeSelect(removeOrders(hql));
+        String countQueryString = " select count (*) " + removeSelect(removeOrders(hql));
         List<?> countlist = find(countQueryString, values);
         boolean groupByFlag = false;
         if (countQueryString.indexOf("group by") > 0) {
@@ -252,8 +251,6 @@ public class EntityDao<T> implements Serializable  {
 
     /**
      * 对所有属性进行验证
-     *
-     * @return
      */
     public Map<String, String> validate() {
         Map<String, String> map = new HashMap<String, String>();
@@ -268,9 +265,6 @@ public class EntityDao<T> implements Serializable  {
 
     /**
      * 对单个属性进行验证
-     *
-     * @param fileName
-     * @return
      */
     public Map<String, String> validate(String fieldName) {
         if (fieldName == null) {
@@ -300,12 +294,10 @@ public class EntityDao<T> implements Serializable  {
      * @param map
      *            装载错误信息的map
      */
-    public void validateField(Validation[] vs, String key, Object fieldValue,
-                              Map<String, String> map) {
+    public void validateField(Validation[] vs, String key, Object fieldValue, Map<String, String> map) {
         for (Validation validateAnnotation : vs) {
             if (validateAnnotation != null) {
-                String msg = ValidateContext.validate(validateAnnotation,
-                        fieldValue);
+                String msg = ValidateContext.validate(validateAnnotation, fieldValue);
                 if (!msg.equals("")) {
                     map.put(key, msg);
                     break;
@@ -316,9 +308,6 @@ public class EntityDao<T> implements Serializable  {
 
     /**
      * 获得该field上的所有验证器的数组
-     *
-     * @param field
-     * @return
      */
     public Validation[] getValidations(Field field) {
         Validation[] validations = new Validation[1];
@@ -336,8 +325,6 @@ public class EntityDao<T> implements Serializable  {
 
     /**
      * 通过反射获得对象的名称和传入的属性名称拼装成存储错误消息的key字符串
-     *
-     * @return
      */
     private String getMessageKey(String fieldName) {
         String objectName = persistentClass.getName();
@@ -355,13 +342,9 @@ public class EntityDao<T> implements Serializable  {
 
     /**
      * 通过反射调用该属性的get方法获得属性的值
-     *
-     * @param filedName
-     * @return
      */
     private Object invokeMethod(String filedName) {
-        filedName = filedName.substring(0, 1).toUpperCase()
-                + filedName.substring(1);
+        filedName = filedName.substring(0, 1).toUpperCase() + filedName.substring(1);
         try {
             Method method = persistentClass.getMethod("get" + filedName);
             return method.invoke(this);
