@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 import java.util.Random;
-
 import org.hibernate.dialect.Dialect;
 import org.hibernate.engine.SessionImplementor;
 import org.hibernate.id.Configurable;
@@ -13,10 +12,6 @@ import org.hibernate.id.IdentifierGenerator;
 import org.hibernate.type.Type;
 import org.hibernate.util.PropertiesHelper;
 
-/**
- * @author :wanchangxu
- *
- */
 public class Sysid implements IdentifierGenerator ,Configurable{
 
     private String sep = "";
