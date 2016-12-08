@@ -1,6 +1,8 @@
 package com.lcc.framework.util;
 
 
+import com.lcc.framework.model.common.SearchDate;
+
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -31,6 +33,7 @@ import javax.imageio.ImageIO;
  * Created by lcc on 2016/11/29.
  */
 public class DataTypeUtil {
+
     public static int bytesToInt(byte[] b) {
         int mask = 0xff;
         int temp = 0;
@@ -46,8 +49,6 @@ public class DataTypeUtil {
 
     /**
      * 数组是小端
-     * @param b
-     * @return
      */
     public static int littleBytesToInt(byte[] b) {
         int mask = 0xff;
@@ -64,8 +65,6 @@ public class DataTypeUtil {
 
     /**
      * 解析车载终端的时间
-     * @param b
-     * @return
      */
     public static String getDateStr(byte[] b){
         String temp ="" ;
@@ -148,8 +147,6 @@ public class DataTypeUtil {
 
     /**
      * 将字节转换成无符号的整数字符串形式
-     * @param src
-     * @return
      */
     public static String byte2Hexs(byte src) {
         try {
@@ -166,12 +163,6 @@ public class DataTypeUtil {
 
     /**
      * 判断child是否是parent的子类
-     *
-     * @param parent
-     *            Class
-     * @param child
-     *            Class
-     * @return boolean
      */
     public static boolean isChildClass(Class parent, Class child) {
 
@@ -317,21 +308,12 @@ public class DataTypeUtil {
     }
 
     /**
-     * 岳老虎 2004-01-13 添加此方法
-     *
-     * @param className
-     *            类的名称
-     * @param argsType
-     *            参数名称
-     * @param argsValue
-     *            参数值
      * @return 返回实例华以后的对象
      */
     public static Object getClassInstance(String className) {
         return getClassInstance(className, null, null);
     }
 
-    // add by hejiang 20030725
     /**
      * Gets the DateStr attribute of the DataTypeUtil class
      *
