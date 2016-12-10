@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e34664ca-3bc2-47da-b038-eb3268880f57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/utils/DateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/utils/MapUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/BlmbDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/CldaDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/ClhmdDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/DzwlDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" />
     </list>
     <ignored path="lcc_dtjc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,20 +29,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppxxDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java">
+      <file leaf-file-name="ClhmdDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/ClhmdDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="384">
+              <caret line="80" column="87" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#740#756#0" expanded="true" />
-                <marker date="1481356507000" expanded="true" signature="1928:1990" ph="UPDATE T_JC_... " />
-                <marker date="1481356507000" expanded="true" signature="2286:2331" ph="UPDATE T_JC_... " />
-                <marker date="1481356507000" expanded="true" signature="2528:2575" ph="UPDATE T_JC_... " />
-                <marker date="1481356507000" expanded="true" signature="2933:2978" ph="UPDATE T_JC_... " />
-                <marker date="1481356507000" expanded="true" signature="3176:3236" ph="select sbbm,... t_jc_dev" />
-                <marker date="1481356507000" expanded="true" signature="3550:3821" ph="select t.cz,... t_jc_logapp" />
+                <marker date="1481359393000" expanded="true" signature="536:590" ph="SELECT cph f... t_jc_cl_hmd" />
+                <marker date="1481359393000" expanded="true" signature="974:1032" ph="UPDATE T_JC_... " />
+                <marker date="1481359393000" expanded="true" signature="1251:1326" ph="UPDATE T_JC_... " />
+                <marker date="1481359393000" expanded="true" signature="1615:1682" ph="UPDATE T_JC_... " />
+                <marker date="1481359393000" expanded="true" signature="1978:2019" ph="select * fro... t_jc_cl_hmd" />
+                <marker date="1481359393000" expanded="true" signature="2125:2215" ph="select * fro... t_jc_cl_hmd" />
+                <marker date="1481359393000" expanded="true" signature="2571:2630" ph="select vehic... t_base_vehicle" />
+                <marker date="1481359393000" expanded="true" signature="2862:2945" ph="select count... t_base_vehicle" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DzwlDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/DzwlDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="37" column="90" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1481361259000" expanded="true" signature="946:1012" ph="SELECT COUNT... t_jc_dzwl" />
+                <marker date="1481361259000" expanded="true" signature="1267:1306" ph="SELECT wl.* T_JC_DZWL" />
+                <marker date="1481361259000" expanded="true" signature="1972:2011" ph="UPDATE T_JC_... " />
               </folding>
             </state>
           </provider>
@@ -74,11 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/TaskRunInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskRunInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskRuningInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/UserTaskRunBean.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskRunBean.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/Dzwl.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/DzwlLog.java" />
@@ -125,6 +137,11 @@
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/utils/MapUtils.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/BlmbDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/CldaDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/ClhmdDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/DzwlDao.java" />
       </list>
     </option>
   </component>
@@ -135,8 +152,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="24" />
+    <option name="x" value="125" />
+    <option name="y" value="22" />
     <option name="width" value="1267" />
     <option name="height" value="737" />
   </component>
@@ -718,15 +735,15 @@
       <workItem from="1481069064394" duration="2399000" />
       <workItem from="1481156472371" duration="1625000" />
       <workItem from="1481240546319" duration="2685000" />
-      <workItem from="1481346361955" duration="4331000" />
+      <workItem from="1481346361955" duration="6019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39501000" />
+    <option name="totallyTimeSpent" value="41189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="24" width="1267" height="737" extended-state="0" />
+    <frame x="125" y="22" width="1267" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -787,242 +804,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/task/UserTaskRunBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#469#470#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-            <element signature="e#558#559#0" expanded="false" />
-            <element signature="e#592#593#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#762#763#0" expanded="false" />
-            <element signature="e#809#810#0" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2445">
-          <caret line="223" column="57" selection-start-line="223" selection-start-column="57" selection-end-line="223" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1115#1116#0" expanded="false" />
-            <element signature="e#1140#1141#0" expanded="false" />
-            <element signature="e#1177#1178#0" expanded="false" />
-            <element signature="e#1205#1206#0" expanded="false" />
-            <element signature="e#1239#1240#0" expanded="false" />
-            <element signature="e#1270#1271#0" expanded="false" />
-            <element signature="e#1318#1319#0" expanded="false" />
-            <element signature="e#1358#1359#0" expanded="false" />
-            <element signature="e#1391#1392#0" expanded="false" />
-            <element signature="e#1420#1421#0" expanded="false" />
-            <element signature="e#1464#1465#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1531#1532#0" expanded="false" />
-            <element signature="e#1558#1559#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1660#1661#0" expanded="false" />
-            <element signature="e#1686#1687#0" expanded="false" />
-            <element signature="e#1724#1725#0" expanded="false" />
-            <element signature="e#1754#1755#0" expanded="false" />
-            <element signature="e#1786#1787#0" expanded="false" />
-            <element signature="e#1814#1815#0" expanded="false" />
-            <element signature="e#1856#1857#0" expanded="false" />
-            <element signature="e#1890#1891#0" expanded="false" />
-            <element signature="e#1924#1925#0" expanded="false" />
-            <element signature="e#1954#1955#0" expanded="false" />
-            <element signature="e#2000#2001#0" expanded="false" />
-            <element signature="e#2038#2039#0" expanded="false" />
-            <element signature="e#2102#2103#0" expanded="false" />
-            <element signature="e#2132#2133#0" expanded="false" />
-            <element signature="e#2179#2180#0" expanded="false" />
-            <element signature="e#2217#2218#0" expanded="false" />
-            <element signature="e#2282#2283#0" expanded="false" />
-            <element signature="e#2312#2313#0" expanded="false" />
-            <element signature="e#2359#2360#0" expanded="false" />
-            <element signature="e#2397#2398#0" expanded="false" />
-            <element signature="e#2464#2465#0" expanded="false" />
-            <element signature="e#2496#2497#0" expanded="false" />
-            <element signature="e#2546#2547#0" expanded="false" />
-            <element signature="e#2588#2589#0" expanded="false" />
-            <element signature="e#2619#2620#0" expanded="false" />
-            <element signature="e#2646#2647#0" expanded="false" />
-            <element signature="e#2686#2687#0" expanded="false" />
-            <element signature="e#2718#2719#0" expanded="false" />
-            <element signature="e#3112#3113#0" expanded="false" />
-            <element signature="e#3142#3143#0" expanded="false" />
-            <element signature="e#3188#3189#0" expanded="false" />
-            <element signature="e#3226#3227#0" expanded="false" />
-            <element signature="e#3260#3261#0" expanded="false" />
-            <element signature="e#3290#3291#0" expanded="false" />
-            <element signature="e#3336#3337#0" expanded="false" />
-            <element signature="e#3374#3375#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/task/TaskRunBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#738#739#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#811#812#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#896#897#0" expanded="false" />
-            <element signature="e#931#932#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-            <element signature="e#1997#1998#0" expanded="false" />
-            <element signature="e#2054#2055#0" expanded="false" />
-            <element signature="e#2136#2137#0" expanded="false" />
-            <element signature="e#2187#2188#0" expanded="false" />
-            <element signature="e#2630#2631#0" expanded="false" />
-            <element signature="e#2664#2665#0" expanded="false" />
-            <element signature="e#2719#2720#0" expanded="false" />
-            <element signature="e#2765#2766#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/Dzwl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#903#904#0" expanded="false" />
-            <element signature="e#928#929#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
-            <element signature="e#1049#1050#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1121#1122#0" expanded="false" />
-            <element signature="e#1150#1151#0" expanded="false" />
-            <element signature="e#1177#1178#0" expanded="false" />
-            <element signature="e#1215#1216#0" expanded="false" />
-            <element signature="e#1247#1248#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-            <element signature="e#1303#1304#0" expanded="false" />
-            <element signature="e#1341#1342#0" expanded="false" />
-            <element signature="e#1371#1372#0" expanded="false" />
-            <element signature="e#1403#1404#0" expanded="false" />
-            <element signature="e#1430#1431#0" expanded="false" />
-            <element signature="e#1471#1472#0" expanded="false" />
-            <element signature="e#1503#1504#0" expanded="false" />
-            <element signature="e#1535#1536#0" expanded="false" />
-            <element signature="e#1562#1563#0" expanded="false" />
-            <element signature="e#1603#1604#0" expanded="false" />
-            <element signature="e#1635#1636#0" expanded="false" />
-            <element signature="e#1668#1669#0" expanded="false" />
-            <element signature="e#1696#1697#0" expanded="false" />
-            <element signature="e#1739#1740#0" expanded="false" />
-            <element signature="e#1773#1774#0" expanded="false" />
-            <element signature="e#1806#1807#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#1879#1880#0" expanded="false" />
-            <element signature="e#1915#1916#0" expanded="false" />
-            <element signature="e#2223#2224#0" expanded="false" />
-            <element signature="e#2249#2250#0" expanded="false" />
-            <element signature="e#2287#2288#0" expanded="false" />
-            <element signature="e#2317#2318#0" expanded="false" />
-            <element signature="e#2347#2348#0" expanded="false" />
-            <element signature="e#2373#2374#0" expanded="false" />
-            <element signature="e#2411#2412#0" expanded="false" />
-            <element signature="e#2441#2442#0" expanded="false" />
-            <element signature="e#2474#2475#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="e#2547#2548#0" expanded="false" />
-            <element signature="e#2583#2584#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/DzwlLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#968#969#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1094#1095#0" expanded="false" />
-            <element signature="e#1121#1122#0" expanded="false" />
-            <element signature="e#1158#1159#0" expanded="false" />
-            <element signature="e#1190#1191#0" expanded="false" />
-            <element signature="e#1222#1223#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-            <element signature="e#1294#1295#0" expanded="false" />
-            <element signature="e#1330#1331#0" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1391#1392#0" expanded="false" />
-            <element signature="e#1434#1435#0" expanded="false" />
-            <element signature="e#1470#1471#0" expanded="false" />
-            <element signature="e#1499#1500#0" expanded="false" />
-            <element signature="e#1524#1525#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-            <element signature="e#1588#1589#0" expanded="false" />
-            <element signature="e#1616#1617#0" expanded="false" />
-            <element signature="e#1643#1644#0" expanded="false" />
-            <element signature="e#1680#1681#0" expanded="false" />
-            <element signature="e#1712#1713#0" expanded="false" />
-            <element signature="e#1857#1858#0" expanded="false" />
-            <element signature="e#1882#1883#0" expanded="false" />
-            <element signature="e#1917#1918#0" expanded="false" />
-            <element signature="e#1945#1946#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-            <element signature="e#2000#2001#0" expanded="false" />
-            <element signature="e#2037#2038#0" expanded="false" />
-            <element signature="e#2069#2070#0" expanded="false" />
-            <element signature="e#2102#2103#0" expanded="false" />
-            <element signature="e#2131#2132#0" expanded="false" />
-            <element signature="e#2175#2176#0" expanded="false" />
-            <element signature="e#2211#2212#0" expanded="false" />
-            <element signature="e#2242#2243#0" expanded="false" />
-            <element signature="e#2269#2270#0" expanded="false" />
-            <element signature="e#2309#2310#0" expanded="false" />
-            <element signature="e#2341#2342#0" expanded="false" />
-            <element signature="e#2373#2374#0" expanded="false" />
-            <element signature="e#2402#2403#0" expanded="false" />
-            <element signature="e#2445#2446#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2511#2512#0" expanded="false" />
-            <element signature="e#2538#2539#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2609#2610#0" expanded="false" />
-            <element signature="e#2643#2644#0" expanded="false" />
-            <element signature="e#2674#2675#0" expanded="false" />
-            <element signature="e#2721#2722#0" expanded="false" />
-            <element signature="e#2761#2762#0" expanded="false" />
-            <element signature="e#2790#2791#0" expanded="false" />
-            <element signature="e#2818#2819#0" expanded="false" />
-            <element signature="e#2857#2858#0" expanded="false" />
-            <element signature="e#2891#2892#0" expanded="false" />
-            <element signature="e#2924#2925#0" expanded="false" />
-            <element signature="e#2954#2955#0" expanded="false" />
-            <element signature="e#2999#3000#0" expanded="false" />
-            <element signature="e#3037#3038#0" expanded="false" />
-            <element signature="e#3070#3071#0" expanded="false" />
-            <element signature="e#3100#3101#0" expanded="false" />
-            <element signature="e#3145#3146#0" expanded="false" />
-            <element signature="e#3183#3184#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/framework/constants/UserConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -3075,6 +2856,91 @@
             <marker date="1481356507000" expanded="true" signature="2933:2978" ph="UPDATE T_JC_... " />
             <marker date="1481356507000" expanded="true" signature="3176:3236" ph="select sbbm,... t_jc_dev" />
             <marker date="1481356507000" expanded="true" signature="3550:3821" ph="select t.cz,... t_jc_logapp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/BlmbDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1481357582000" expanded="true" signature="732:774" ph="update t_jc_... " />
+            <marker date="1481357582000" expanded="true" signature="974:1019" ph="UPDATE T_JC_... " />
+            <marker date="1481357582000" expanded="true" signature="1212:1255" ph="select id,wt... t_jc_blwt" />
+            <marker date="1481357582000" expanded="true" signature="1636:1694" ph="insert into T_JC_WT_MB... " />
+            <marker date="1481357582000" expanded="true" signature="1944:2016" ph="select mbid,... T_JC_WT_MB" />
+            <marker date="1481357582000" expanded="true" signature="2251:2299" ph="UPDATE T_JC_... " />
+            <marker date="1481357582000" expanded="true" signature="2417:2464" ph="update t_jc_... " />
+            <marker date="1481357582000" expanded="true" signature="2695:2753" ph="insert into T_JC_WT_MB... " />
+            <marker date="1481357582000" expanded="true" signature="3019:3064" ph="UPDATE T_JC_... " />
+            <marker date="1481357582000" expanded="true" signature="3179:3227" ph="UPDATE T_JC_... " />
+            <marker date="1481357582000" expanded="true" signature="3437:3501" ph="UPDATE T_JC_... " />
+            <marker date="1481357582000" expanded="true" signature="3743:3788" ph="UPDATE T_JC_... " />
+            <marker date="1481357582000" expanded="true" signature="4007:4070" ph="select id fr... t_jc_blmb" />
+            <marker date="1481357582000" expanded="true" signature="4186:4259" ph="select id fr... t_jc_blmb" />
+            <marker date="1481357582000" expanded="true" signature="4456:4510" ph="select mbmc t_jc_blmb" />
+            <marker date="1481357582000" expanded="true" signature="4693:4746" ph="select wtnr t_jc_blwt" />
+            <marker date="1481357582000" expanded="true" signature="4941:4992" ph="select id fr... t_jc_blwt" />
+            <marker date="1481357582000" expanded="true" signature="5102:5165" ph="select id fr... t_jc_blwt" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/CldaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1481359190000" expanded="true" signature="628:1211" ph="select ve.id... t_base_vehicle" />
+            <marker date="1481359190000" expanded="true" signature="982:1045" ph="select h.cph... t_jc_cl_hmd" />
+            <marker date="1481359190000" expanded="true" signature="1489:1824" ph="select ve.mt... t_base_vehicle" />
+            <marker date="1481359190000" expanded="true" signature="2114:2310" ph="select emp.n... t_base_emp" />
+            <marker date="1481359190000" expanded="true" signature="2192:2257" ph="select h.sfz... t_jc_emp_hmd" />
+            <marker date="1481359190000" expanded="true" signature="2580:2781" ph="select to_ch... T_BASE_DEV" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/ClhmdDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="80" column="87" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1481359393000" expanded="true" signature="536:590" ph="SELECT cph f... t_jc_cl_hmd" />
+            <marker date="1481359393000" expanded="true" signature="974:1032" ph="UPDATE T_JC_... " />
+            <marker date="1481359393000" expanded="true" signature="1251:1326" ph="UPDATE T_JC_... " />
+            <marker date="1481359393000" expanded="true" signature="1615:1682" ph="UPDATE T_JC_... " />
+            <marker date="1481359393000" expanded="true" signature="1978:2019" ph="select * fro... t_jc_cl_hmd" />
+            <marker date="1481359393000" expanded="true" signature="2125:2215" ph="select * fro... t_jc_cl_hmd" />
+            <marker date="1481359393000" expanded="true" signature="2571:2630" ph="select vehic... t_base_vehicle" />
+            <marker date="1481359393000" expanded="true" signature="2862:2945" ph="select count... t_base_vehicle" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/DzwlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="37" column="90" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1481361259000" expanded="true" signature="946:1012" ph="SELECT COUNT... t_jc_dzwl" />
+            <marker date="1481361259000" expanded="true" signature="1267:1306" ph="SELECT wl.* T_JC_DZWL" />
+            <marker date="1481361259000" expanded="true" signature="1972:2011" ph="UPDATE T_JC_... " />
           </folding>
         </state>
       </provider>
