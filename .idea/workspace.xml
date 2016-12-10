@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e34664ca-3bc2-47da-b038-eb3268880f57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/TJcZfjg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/TjcFwqcs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/TjcLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Version.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Wfcd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Wtmb.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Wzjl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Wzjlxw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Wzjlycx.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Wzxw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Wzxwbl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/YjaDsr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/YjaFdsr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/Zbgl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/AppDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/utils/PubUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/utils/DateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/utils/MapUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lcc/framework/rest/AppGjRest.java" afterPath="$PROJECT_DIR$/src/com/lcc/framework/rest/AppGjRest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" />
     </list>
     <ignored path="lcc_dtjc.iws" />
@@ -42,81 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AppDao.java">
+      <file leaf-file-name="AppxxDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1481351360000" expanded="true" signature="589:676" ph="INSERT INTO T_JC_APP_GJ... " />
-                <marker date="1481351360000" expanded="true" signature="1085:1299" ph="select g.lon... t_jc_app_gj" />
-                <marker date="1481351360000" expanded="true" signature="1592:1633" ph="select id fr... t_jc_zfjg" />
-                <marker date="1481351360000" expanded="true" signature="1696:1784" ph="select id fr... t_jc_zfjg" />
-                <marker date="1481351360000" expanded="true" signature="2056:2254" ph="select to_ch... t_jc_dzwl" />
-                <marker date="1481351360000" expanded="true" signature="4465:4512" ph="select sbbm,... t_jc_dev" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AjclDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3039">
-              <caret line="352" column="66" selection-start-line="352" selection-start-column="66" selection-end-line="352" selection-end-column="66" />
-              <folding>
-                <marker date="1481351514000" expanded="true" signature="723:758" ph="delete from " />
-                <marker date="1481351514000" expanded="true" signature="981:1025" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="1267:1326" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="1554:1717" ph="SELECT XW.WZ... T_JC_WZJL" />
-                <marker date="1481351514000" expanded="true" signature="1907:1989" ph="SELECT ID,WZ... T_JC_WZJL_YCX" />
-                <marker date="1481351514000" expanded="true" signature="2229:2271" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="2509:2586" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="2872:3041" ph="select w.wzn... t_jc_wzjl_xw" />
-                <marker date="1481351514000" expanded="true" signature="3248:3379" ph="select t.wfx... t_jc_wzxw_wfcd" />
-                <marker date="1481351514000" expanded="true" signature="3585:3640" ph="select * fro... t_jc_wzjl_xw" />
-                <marker date="1481351514000" expanded="true" signature="3860:3919" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="4156:4213" ph="insert into T_JC_WZJL_XW... " />
-                <marker date="1481351514000" expanded="true" signature="4426:4535" ph="select t.wfc... t_jc_wzjl_xw" />
-                <marker date="1481351514000" expanded="true" signature="4727:4784" ph="select t.pti... t_base_emp" />
-                <marker date="1481351514000" expanded="true" signature="5043:5092" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="5319:5384" ph="insert into T_JC_WZJL_XW... " />
-                <marker date="1481351514000" expanded="true" signature="5572:5641" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="5949:5998" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="6238:6303" ph="insert into T_JC_WZJL_XW... " />
-                <marker date="1481351514000" expanded="true" signature="6490:6548" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="6802:6895" ph="SELECT missi... t_jc_emp_ndkh" />
-                <marker date="1481351514000" expanded="true" signature="7161:7391" ph="select jl.zf... t_jc_wzjl" />
-                <marker date="1481351514000" expanded="true" signature="7591:7750" ph="select xw.wf... t_jc_wzjl" />
-                <marker date="1481351514000" expanded="true" signature="7951:8004" ph="SELECT fs FR... t_kp_jsy_ss" />
-                <marker date="1481351514000" expanded="true" signature="8387:8452" ph="insert into T_JC_WZJL_XW... " />
-                <marker date="1481351514000" expanded="true" signature="8643:8690" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="9874:9923" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="10158:10223" ph="insert into T_JC_WZJL_XW... " />
-                <marker date="1481351514000" expanded="true" signature="10410:10574" ph="UPDATE T_JC_... " />
-                <marker date="1481351514000" expanded="true" signature="11006:11130" ph="SELECT w.zfp... t_jc_wzjl" />
-                <marker date="1481351514000" expanded="true" signature="11332:11542" ph="SELECT F.*,R... t_jc_wzjl" />
-                <marker date="1481351514000" expanded="true" signature="11392:11425" ph="SELECT R.ID,... T_JC_RY" />
-                <marker date="1481351514000" expanded="true" signature="11431:11464" ph="SELECT R.ID,... T_JC_RY" />
-                <marker date="1481351514000" expanded="true" signature="14188:14333" ph="select id,na... t_jc_ry" />
-                <marker date="1481351514000" expanded="true" signature="14693:14758" ph="insert into T_JC_WZJL_XW... " />
-                <marker date="1481351514000" expanded="true" signature="15051:15164" ph="select ptidc... t_base_emp" />
-                <marker date="1481351514000" expanded="true" signature="15856:15911" ph="select * fro... t_jc_emp_ndkh" />
-                <marker date="1481351514000" expanded="true" signature="16119:16212" ph="select id wz... t_jc_wzjl" />
-                <marker date="1481351514000" expanded="true" signature="17454:17515" ph="update t_jc_... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PubUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/utils/PubUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#740#756#0" expanded="true" />
+                <marker date="1481356507000" expanded="true" signature="1928:1990" ph="UPDATE T_JC_... " />
+                <marker date="1481356507000" expanded="true" signature="2286:2331" ph="UPDATE T_JC_... " />
+                <marker date="1481356507000" expanded="true" signature="2528:2575" ph="UPDATE T_JC_... " />
+                <marker date="1481356507000" expanded="true" signature="2933:2978" ph="UPDATE T_JC_... " />
+                <marker date="1481356507000" expanded="true" signature="3176:3236" ph="select sbbm,... t_jc_dev" />
+                <marker date="1481356507000" expanded="true" signature="3550:3821" ph="select t.cz,... t_jc_logapp" />
               </folding>
             </state>
           </provider>
@@ -149,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskAreaInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskDetail.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskInfo.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/TaskRunInfo.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/task/TaskRunInfo.java" />
@@ -198,8 +121,10 @@
         <option value="$PROJECT_DIR$/src/com/lcc/framework/rest/AppGjRest.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/AppService.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AppDao.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/utils/PubUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/utils/MapUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java" />
       </list>
     </option>
   </component>
@@ -210,7 +135,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
+    <option name="x" value="-4" />
     <option name="y" value="24" />
     <option name="width" value="1267" />
     <option name="height" value="737" />
@@ -286,10 +211,6 @@
               <option name="myItemId" value="taxi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -314,6 +235,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -793,15 +718,15 @@
       <workItem from="1481069064394" duration="2399000" />
       <workItem from="1481156472371" duration="1625000" />
       <workItem from="1481240546319" duration="2685000" />
-      <workItem from="1481346361955" duration="3321000" />
+      <workItem from="1481346361955" duration="4331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38491000" />
+    <option name="totallyTimeSpent" value="39501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="24" width="1267" height="737" extended-state="0" />
+    <frame x="-4" y="24" width="1267" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -845,7 +770,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java</url>
+          <line>66</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -853,192 +787,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/task/TaskRunInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#342#343#0" expanded="false" />
-            <element signature="e#371#372#0" expanded="false" />
-            <element signature="e#416#417#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#487#488#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#566#567#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-            <element signature="e#662#663#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#732#733#0" expanded="false" />
-            <element signature="e#761#762#0" expanded="false" />
-            <element signature="e#788#789#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#858#859#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#927#928#0" expanded="false" />
-            <element signature="e#978#979#0" expanded="false" />
-            <element signature="e#1020#1021#0" expanded="false" />
-            <element signature="e#1054#1055#0" expanded="false" />
-            <element signature="e#1083#1084#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-            <element signature="e#1164#1165#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/task/TaskRuningInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/CarInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#622#623#0" expanded="false" />
-            <element signature="e#658#659#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="false" />
-            <element signature="e#827#828#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
-            <element signature="e#987#988#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-            <element signature="e#1083#1084#0" expanded="false" />
-            <element signature="e#1109#1110#0" expanded="false" />
-            <element signature="e#1147#1148#0" expanded="false" />
-            <element signature="e#1177#1178#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1307#1308#0" expanded="false" />
-            <element signature="e#2267#2268#0" expanded="false" />
-            <element signature="e#2302#2303#0" expanded="false" />
-            <element signature="e#2358#2359#0" expanded="false" />
-            <element signature="e#2406#2407#0" expanded="false" />
-            <element signature="e#2440#2441#0" expanded="false" />
-            <element signature="e#2473#2474#0" expanded="false" />
-            <element signature="e#2522#2523#0" expanded="false" />
-            <element signature="e#2566#2567#0" expanded="false" />
-            <element signature="e#2596#2597#0" expanded="false" />
-            <element signature="e#2625#2626#0" expanded="false" />
-            <element signature="e#2666#2667#0" expanded="false" />
-            <element signature="e#2702#2703#0" expanded="false" />
-            <element signature="e#2734#2735#0" expanded="false" />
-            <element signature="e#2765#2766#0" expanded="false" />
-            <element signature="e#2810#2811#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="false" />
-            <element signature="e#2884#2885#0" expanded="false" />
-            <element signature="e#2914#2915#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="false" />
-            <element signature="e#2998#2999#0" expanded="false" />
-            <element signature="e#3030#3031#0" expanded="false" />
-            <element signature="e#3060#3061#0" expanded="false" />
-            <element signature="e#3104#3105#0" expanded="false" />
-            <element signature="e#3142#3143#0" expanded="false" />
-            <element signature="e#3174#3175#0" expanded="false" />
-            <element signature="e#3202#3203#0" expanded="false" />
-            <element signature="e#3244#3245#0" expanded="false" />
-            <element signature="e#3278#3279#0" expanded="false" />
-            <element signature="e#3311#3312#0" expanded="false" />
-            <element signature="e#3343#3344#0" expanded="false" />
-            <element signature="e#3390#3391#0" expanded="false" />
-            <element signature="e#3432#3433#0" expanded="false" />
-            <element signature="e#3465#3466#0" expanded="false" />
-            <element signature="e#3494#3495#0" expanded="false" />
-            <element signature="e#3538#3539#0" expanded="false" />
-            <element signature="e#3574#3575#0" expanded="false" />
-            <element signature="e#3609#3610#0" expanded="false" />
-            <element signature="e#3640#3641#0" expanded="false" />
-            <element signature="e#3688#3689#0" expanded="false" />
-            <element signature="e#3728#3729#0" expanded="false" />
-            <element signature="e#3758#3759#0" expanded="false" />
-            <element signature="e#3784#3785#0" expanded="false" />
-            <element signature="e#3822#3823#0" expanded="false" />
-            <element signature="e#3852#3853#0" expanded="false" />
-            <element signature="e#3882#3883#0" expanded="false" />
-            <element signature="e#3908#3909#0" expanded="false" />
-            <element signature="e#3946#3947#0" expanded="false" />
-            <element signature="e#3976#3977#0" expanded="false" />
-            <element signature="e#4006#4007#0" expanded="false" />
-            <element signature="e#4032#4033#0" expanded="false" />
-            <element signature="e#4070#4071#0" expanded="false" />
-            <element signature="e#4100#4101#0" expanded="false" />
-            <element signature="e#4135#4136#0" expanded="false" />
-            <element signature="e#4166#4167#0" expanded="false" />
-            <element signature="e#4214#4215#0" expanded="false" />
-            <element signature="e#4254#4255#0" expanded="false" />
-            <element signature="e#4284#4285#0" expanded="false" />
-            <element signature="e#4312#4313#0" expanded="false" />
-            <element signature="e#4352#4353#0" expanded="false" />
-            <element signature="e#4386#4387#0" expanded="false" />
-            <element signature="e#4420#4421#0" expanded="false" />
-            <element signature="e#4452#4453#0" expanded="false" />
-            <element signature="e#4500#4501#0" expanded="false" />
-            <element signature="e#4542#4543#0" expanded="false" />
-            <element signature="e#4571#4572#0" expanded="false" />
-            <element signature="e#4599#4600#0" expanded="false" />
-            <element signature="e#4638#4639#0" expanded="false" />
-            <element signature="e#4672#4673#0" expanded="false" />
-            <element signature="e#4702#4703#0" expanded="false" />
-            <element signature="e#4728#4729#0" expanded="false" />
-            <element signature="e#4766#4767#0" expanded="false" />
-            <element signature="e#4796#4797#0" expanded="false" />
-            <element signature="e#4831#4832#0" expanded="false" />
-            <element signature="e#4862#4863#0" expanded="false" />
-            <element signature="e#4910#4911#0" expanded="false" />
-            <element signature="e#4950#4951#0" expanded="false" />
-            <element signature="e#4983#4984#0" expanded="false" />
-            <element signature="e#5025#5026#0" expanded="false" />
-            <element signature="e#5072#5073#0" expanded="false" />
-            <element signature="e#5115#5116#0" expanded="false" />
-            <element signature="e#5149#5150#0" expanded="false" />
-            <element signature="e#5184#5185#0" expanded="false" />
-            <element signature="e#5229#5230#0" expanded="false" />
-            <element signature="e#5268#5269#0" expanded="false" />
-            <element signature="e#5303#5304#0" expanded="false" />
-            <element signature="e#5336#5337#0" expanded="false" />
-            <element signature="e#5386#5387#0" expanded="false" />
-            <element signature="e#5430#5431#0" expanded="false" />
-            <element signature="e#5497#5498#0" expanded="false" />
-            <element signature="e#5527#5528#0" expanded="false" />
-            <element signature="e#5558#5559#0" expanded="false" />
-            <element signature="e#5585#5586#0" expanded="false" />
-            <element signature="e#5625#5626#0" expanded="false" />
-            <element signature="e#5657#5658#0" expanded="false" />
-            <element signature="e#5690#5691#0" expanded="false" />
-            <element signature="e#5717#5718#0" expanded="false" />
-            <element signature="e#5746#5747#0" expanded="false" />
-            <element signature="e#5773#5774#0" expanded="false" />
-            <element signature="e#5811#5812#0" expanded="false" />
-            <element signature="e#5843#5844#0" expanded="false" />
-            <element signature="e#5884#5885#0" expanded="false" />
-            <element signature="e#5916#5917#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/task/UserTaskRunBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -3102,17 +2850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/framework/dao/EntityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1490">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding>
-            <element signature="e#2471#2472#0" expanded="false" />
-            <element signature="e#2525#2526#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/Zbgl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-682">
@@ -3221,9 +2958,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/utils/PubUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/utils/MapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4296">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding>
+            <marker date="1481355662000" expanded="true" signature="759:794" ph="delete from " />
+            <marker date="1481355662000" expanded="true" signature="1017:1061" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="1303:1362" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="1590:1753" ph="SELECT XW.WZ... T_JC_WZJL" />
+            <marker date="1481355662000" expanded="true" signature="1943:2025" ph="SELECT ID,WZ... T_JC_WZJL_YCX" />
+            <marker date="1481355662000" expanded="true" signature="2265:2307" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="2545:2622" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="2908:3077" ph="select w.wzn... t_jc_wzjl_xw" />
+            <marker date="1481355662000" expanded="true" signature="3284:3415" ph="select t.wfx... t_jc_wzxw_wfcd" />
+            <marker date="1481355662000" expanded="true" signature="3621:3676" ph="select * fro... t_jc_wzjl_xw" />
+            <marker date="1481355662000" expanded="true" signature="3896:3955" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="4192:4249" ph="insert into T_JC_WZJL_XW... " />
+            <marker date="1481355662000" expanded="true" signature="4462:4571" ph="select t.wfc... t_jc_wzjl_xw" />
+            <marker date="1481355662000" expanded="true" signature="4763:4820" ph="select t.pti... t_base_emp" />
+            <marker date="1481355662000" expanded="true" signature="5079:5128" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="5355:5420" ph="insert into T_JC_WZJL_XW... " />
+            <marker date="1481355662000" expanded="true" signature="5608:5677" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="5985:6034" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="6274:6339" ph="insert into T_JC_WZJL_XW... " />
+            <marker date="1481355662000" expanded="true" signature="6526:6584" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="6838:6931" ph="SELECT missi... t_jc_emp_ndkh" />
+            <marker date="1481355662000" expanded="true" signature="7197:7427" ph="select jl.zf... t_jc_wzjl" />
+            <marker date="1481355662000" expanded="true" signature="7627:7786" ph="select xw.wf... t_jc_wzjl" />
+            <marker date="1481355662000" expanded="true" signature="7987:8040" ph="SELECT fs FR... t_kp_jsy_ss" />
+            <marker date="1481355662000" expanded="true" signature="8423:8488" ph="insert into T_JC_WZJL_XW... " />
+            <marker date="1481355662000" expanded="true" signature="8679:8726" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="9910:9959" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="10194:10259" ph="insert into T_JC_WZJL_XW... " />
+            <marker date="1481355662000" expanded="true" signature="10446:10610" ph="UPDATE T_JC_... " />
+            <marker date="1481355662000" expanded="true" signature="11042:11166" ph="SELECT w.zfp... t_jc_wzjl" />
+            <marker date="1481355662000" expanded="true" signature="11368:11578" ph="SELECT F.*,R... t_jc_wzjl" />
+            <marker date="1481355662000" expanded="true" signature="11428:11461" ph="SELECT R.ID,... T_JC_RY" />
+            <marker date="1481355662000" expanded="true" signature="11467:11500" ph="SELECT R.ID,... T_JC_RY" />
+            <marker date="1481355662000" expanded="true" signature="14224:14369" ph="select id,na... t_jc_ry" />
+            <marker date="1481355662000" expanded="true" signature="14729:14794" ph="insert into T_JC_WZJL_XW... " />
+            <marker date="1481355662000" expanded="true" signature="15087:15200" ph="select ptidc... t_base_emp" />
+            <marker date="1481355662000" expanded="true" signature="15892:15947" ph="select * fro... t_jc_emp_ndkh" />
+            <marker date="1481355662000" expanded="true" signature="16155:16248" ph="select id wz... t_jc_wzjl" />
+            <marker date="1481355662000" expanded="true" signature="17490:17551" ph="update t_jc_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AppDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="249">
           <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3237,60 +3051,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/framework/dao/EntityDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3039">
-          <caret line="352" column="66" selection-start-line="352" selection-start-column="66" selection-end-line="352" selection-end-column="66" />
+        <state relative-caret-position="165">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
-            <marker date="1481351514000" expanded="true" signature="723:758" ph="delete from " />
-            <marker date="1481351514000" expanded="true" signature="981:1025" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="1267:1326" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="1554:1717" ph="SELECT XW.WZ... T_JC_WZJL" />
-            <marker date="1481351514000" expanded="true" signature="1907:1989" ph="SELECT ID,WZ... T_JC_WZJL_YCX" />
-            <marker date="1481351514000" expanded="true" signature="2229:2271" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="2509:2586" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="2872:3041" ph="select w.wzn... t_jc_wzjl_xw" />
-            <marker date="1481351514000" expanded="true" signature="3248:3379" ph="select t.wfx... t_jc_wzxw_wfcd" />
-            <marker date="1481351514000" expanded="true" signature="3585:3640" ph="select * fro... t_jc_wzjl_xw" />
-            <marker date="1481351514000" expanded="true" signature="3860:3919" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="4156:4213" ph="insert into T_JC_WZJL_XW... " />
-            <marker date="1481351514000" expanded="true" signature="4426:4535" ph="select t.wfc... t_jc_wzjl_xw" />
-            <marker date="1481351514000" expanded="true" signature="4727:4784" ph="select t.pti... t_base_emp" />
-            <marker date="1481351514000" expanded="true" signature="5043:5092" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="5319:5384" ph="insert into T_JC_WZJL_XW... " />
-            <marker date="1481351514000" expanded="true" signature="5572:5641" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="5949:5998" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="6238:6303" ph="insert into T_JC_WZJL_XW... " />
-            <marker date="1481351514000" expanded="true" signature="6490:6548" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="6802:6895" ph="SELECT missi... t_jc_emp_ndkh" />
-            <marker date="1481351514000" expanded="true" signature="7161:7391" ph="select jl.zf... t_jc_wzjl" />
-            <marker date="1481351514000" expanded="true" signature="7591:7750" ph="select xw.wf... t_jc_wzjl" />
-            <marker date="1481351514000" expanded="true" signature="7951:8004" ph="SELECT fs FR... t_kp_jsy_ss" />
-            <marker date="1481351514000" expanded="true" signature="8387:8452" ph="insert into T_JC_WZJL_XW... " />
-            <marker date="1481351514000" expanded="true" signature="8643:8690" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="9874:9923" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="10158:10223" ph="insert into T_JC_WZJL_XW... " />
-            <marker date="1481351514000" expanded="true" signature="10410:10574" ph="UPDATE T_JC_... " />
-            <marker date="1481351514000" expanded="true" signature="11006:11130" ph="SELECT w.zfp... t_jc_wzjl" />
-            <marker date="1481351514000" expanded="true" signature="11332:11542" ph="SELECT F.*,R... t_jc_wzjl" />
-            <marker date="1481351514000" expanded="true" signature="11392:11425" ph="SELECT R.ID,... T_JC_RY" />
-            <marker date="1481351514000" expanded="true" signature="11431:11464" ph="SELECT R.ID,... T_JC_RY" />
-            <marker date="1481351514000" expanded="true" signature="14188:14333" ph="select id,na... t_jc_ry" />
-            <marker date="1481351514000" expanded="true" signature="14693:14758" ph="insert into T_JC_WZJL_XW... " />
-            <marker date="1481351514000" expanded="true" signature="15051:15164" ph="select ptidc... t_base_emp" />
-            <marker date="1481351514000" expanded="true" signature="15856:15911" ph="select * fro... t_jc_emp_ndkh" />
-            <marker date="1481351514000" expanded="true" signature="16119:16212" ph="select id wz... t_jc_wzjl" />
-            <marker date="1481351514000" expanded="true" signature="17454:17515" ph="update t_jc_... " />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/utils/PubUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#740#756#0" expanded="true" />
+            <marker date="1481356507000" expanded="true" signature="1928:1990" ph="UPDATE T_JC_... " />
+            <marker date="1481356507000" expanded="true" signature="2286:2331" ph="UPDATE T_JC_... " />
+            <marker date="1481356507000" expanded="true" signature="2528:2575" ph="UPDATE T_JC_... " />
+            <marker date="1481356507000" expanded="true" signature="2933:2978" ph="UPDATE T_JC_... " />
+            <marker date="1481356507000" expanded="true" signature="3176:3236" ph="select sbbm,... t_jc_dev" />
+            <marker date="1481356507000" expanded="true" signature="3550:3821" ph="select t.cz,... t_jc_logapp" />
           </folding>
         </state>
       </provider>
