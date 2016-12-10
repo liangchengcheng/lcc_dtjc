@@ -15,6 +15,7 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by lcc on 2016/12/6.
  */
+@Controller
 public class AppGjRest {
 
 
