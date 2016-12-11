@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e34664ca-3bc2-47da-b038-eb3268880f57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/framework/util/ComUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/AjclService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/AppService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/AppxxService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/BbxxService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/BlmbService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/CldaService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lcc_dtjc.iws" />
@@ -28,13 +28,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppxxService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppxxService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/AppxxService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-67">
               <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-186">
+              <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2675#2676#0" expanded="true" />
+                <element signature="e#2738#2739#0" expanded="true" />
+                <element signature="e#4274#4275#0" expanded="true" />
+                <element signature="e#4343#4344#0" expanded="true" />
+                <element signature="e#4473#4474#0" expanded="true" />
+                <element signature="e#4533#4534#0" expanded="true" />
+                <element signature="e#11769#11785#0" expanded="true" />
+                <element signature="e#13622#13638#0" expanded="true" />
+                <element signature="e#16924#16940#0" expanded="true" />
+                <marker date="1481459588000" expanded="true" signature="816:981" ph="select t1.ID... T_BASE_VEHICLE" />
+                <marker date="1481459588000" expanded="true" signature="1002:1320" ph="(select emp.... " />
+                <marker date="1481459588000" expanded="true" signature="1003:1286" ph="select emp.I... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="1855:2028" ph="select t1.ID... ID_VEHICLE" />
+                <marker date="1481459588000" expanded="true" signature="1904:2015" ph="select ID_VE... T_BASE_VEHICLE" />
+                <marker date="1481459588000" expanded="true" signature="2048:2283" ph="(select ID_V... " />
+                <marker date="1481459588000" expanded="true" signature="2049:2249" ph="select ID_VE... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="2897:2945" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="7943:8275" ph="select t1.NA... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="8649:8818" ph="select t1.NA... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="9164:9409" ph="select t1.NA... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="9810:9865" ph="select count... T_BASE_COM" />
+                <marker date="1481459588000" expanded="true" signature="10003:10056" ph="select count... T_BASE_VEHICLE" />
+                <marker date="1481459588000" expanded="true" signature="10003:10058" ph="select count... T_BASE_VEHICLE" />
+                <marker date="1481459588000" expanded="true" signature="10348:10479" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="10644:10720" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="10919:10975" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="11138:11229" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="11511:11559" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="11511:11561" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="12340:12409" ph="select count... T_BASE_VEHICLE" />
+                <marker date="1481459588000" expanded="true" signature="12560:12631" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="12806:12897" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="13183:13274" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="14011:14060" ph="select count... T_BASE_COM" />
+                <marker date="1481459588000" expanded="true" signature="14011:14062" ph="select count... T_BASE_COM" />
+                <marker date="1481459588000" expanded="true" signature="14198:14254" ph="select count... T_BASE_VEHICLE" />
+                <marker date="1481459588000" expanded="true" signature="14542:14621" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="14785:14841" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="15001:15092" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="15396:15444" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="15396:15445" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="15637:15792" ph="select ptsex... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="15904:16036" ph="select count... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="17520:17581" ph="select MENUI... T_FK_BASE_CZYMENU" />
+                <marker date="1481459588000" expanded="true" signature="17881:17945" ph="select count... T_FK_BUSI_BLACKLIST" />
+                <marker date="1481459588000" expanded="true" signature="18162:18213" ph="select count... T_FK_BASE_EMP_EXT" />
+                <marker date="1481459588000" expanded="true" signature="18657:18787" ph="select t.NAM... T_BASE_EMP" />
+                <marker date="1481459588000" expanded="true" signature="19574:19720" ph="SELECT to_ch... t_base_rolePriv" />
+                <marker date="1481459588000" expanded="true" signature="19879:19952" ph="SELECT to_ch... t_base_privileges" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BbxxService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/BbxxService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-606">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1481459666000" expanded="true" signature="998:1108" ph="select t.id,... t_jc_version" />
+                <marker date="1481459666000" expanded="true" signature="1838:1875" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlmbService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/BlmbService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="89" column="102" selection-start-line="89" selection-start-column="102" selection-end-line="89" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CldaService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/CldaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-810">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#2358#2367#0" expanded="true" />
+                <element signature="e#3770#3779#0" expanded="true" />
+                <marker date="1481459962000" expanded="true" signature="1864:2232" ph="select tbd.i... T_BASE_DEV" />
+                <marker date="1481459962000" expanded="true" signature="3534:3719" ph="select tbe.i... t_base_emp" />
               </folding>
             </state>
           </provider>
@@ -67,10 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/TBaseEmp.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/TBaseEmpExt.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/TBaseEmpFwbg.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/TBaseRun.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/TBaseVehicle.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/Tjcdev.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/TjcFwqcs.java" />
@@ -118,6 +216,10 @@
         <option value="$PROJECT_DIR$/src/com/lcc/framework/util/ComUtils.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/AppService.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/AppxxService.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/BbxxService.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/BlmbService.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/CldaService.java" />
       </list>
     </option>
   </component>
@@ -128,8 +230,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="480" />
-    <option name="y" value="22" />
+    <option name="x" value="394" />
+    <option name="y" value="31" />
     <option name="width" value="1267" />
     <option name="height" value="737" />
   </component>
@@ -254,10 +356,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lcc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -715,15 +813,15 @@
       <workItem from="1481069064394" duration="2399000" />
       <workItem from="1481156472371" duration="1625000" />
       <workItem from="1481240546319" duration="2685000" />
-      <workItem from="1481346361955" duration="11048000" />
+      <workItem from="1481346361955" duration="13012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46218000" />
+    <option name="totallyTimeSpent" value="48182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="480" y="22" width="1267" height="737" extended-state="0" />
+    <frame x="394" y="31" width="1267" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,196 +882,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/TBaseVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1434#1435#0" expanded="false" />
-            <element signature="e#1466#1467#0" expanded="false" />
-            <element signature="e#1514#1515#0" expanded="false" />
-            <element signature="e#1556#1557#0" expanded="false" />
-            <element signature="e#1588#1589#0" expanded="false" />
-            <element signature="e#1618#1619#0" expanded="false" />
-            <element signature="e#1662#1663#0" expanded="false" />
-            <element signature="e#1700#1701#0" expanded="false" />
-            <element signature="e#1736#1737#0" expanded="false" />
-            <element signature="e#1768#1769#0" expanded="false" />
-            <element signature="e#1818#1819#0" expanded="false" />
-            <element signature="e#1860#1861#0" expanded="false" />
-            <element signature="e#1897#1898#0" expanded="false" />
-            <element signature="e#1930#1931#0" expanded="false" />
-            <element signature="e#1982#1983#0" expanded="false" />
-            <element signature="e#2026#2027#0" expanded="false" />
-            <element signature="e#2058#2059#0" expanded="false" />
-            <element signature="e#2086#2087#0" expanded="false" />
-            <element signature="e#2128#2129#0" expanded="false" />
-            <element signature="e#2162#2163#0" expanded="false" />
-            <element signature="e#2196#2197#0" expanded="false" />
-            <element signature="e#2226#2227#0" expanded="false" />
-            <element signature="e#2272#2273#0" expanded="false" />
-            <element signature="e#2310#2311#0" expanded="false" />
-            <element signature="e#2342#2343#0" expanded="false" />
-            <element signature="e#2369#2370#0" expanded="false" />
-            <element signature="e#2410#2411#0" expanded="false" />
-            <element signature="e#2442#2443#0" expanded="false" />
-            <element signature="e#2478#2479#0" expanded="false" />
-            <element signature="e#2510#2511#0" expanded="false" />
-            <element signature="e#2560#2561#0" expanded="false" />
-            <element signature="e#2602#2603#0" expanded="false" />
-            <element signature="e#2637#2638#0" expanded="false" />
-            <element signature="e#2668#2669#0" expanded="false" />
-            <element signature="e#2716#2717#0" expanded="false" />
-            <element signature="e#2756#2757#0" expanded="false" />
-            <element signature="e#2792#2793#0" expanded="false" />
-            <element signature="e#2824#2825#0" expanded="false" />
-            <element signature="e#2874#2875#0" expanded="false" />
-            <element signature="e#2916#2917#0" expanded="false" />
-            <element signature="e#2951#2952#0" expanded="false" />
-            <element signature="e#2982#2983#0" expanded="false" />
-            <element signature="e#3030#3031#0" expanded="false" />
-            <element signature="e#3070#3071#0" expanded="false" />
-            <element signature="e#3104#3105#0" expanded="false" />
-            <element signature="e#3136#3137#0" expanded="false" />
-            <element signature="e#3184#3185#0" expanded="false" />
-            <element signature="e#3226#3227#0" expanded="false" />
-            <element signature="e#3263#3264#0" expanded="false" />
-            <element signature="e#3296#3297#0" expanded="false" />
-            <element signature="e#3348#3349#0" expanded="false" />
-            <element signature="e#3392#3393#0" expanded="false" />
-            <element signature="e#3428#3429#0" expanded="false" />
-            <element signature="e#3460#3461#0" expanded="false" />
-            <element signature="e#3510#3511#0" expanded="false" />
-            <element signature="e#3552#3553#0" expanded="false" />
-            <element signature="e#3586#3587#0" expanded="false" />
-            <element signature="e#3616#3617#0" expanded="false" />
-            <element signature="e#3662#3663#0" expanded="false" />
-            <element signature="e#3700#3701#0" expanded="false" />
-            <element signature="e#3735#3736#0" expanded="false" />
-            <element signature="e#3768#3769#0" expanded="false" />
-            <element signature="e#3818#3819#0" expanded="false" />
-            <element signature="e#3862#3863#0" expanded="false" />
-            <element signature="e#3893#3894#0" expanded="false" />
-            <element signature="e#3922#3923#0" expanded="false" />
-            <element signature="e#3964#3965#0" expanded="false" />
-            <element signature="e#4000#4001#0" expanded="false" />
-            <element signature="e#4034#4035#0" expanded="false" />
-            <element signature="e#4064#4065#0" expanded="false" />
-            <element signature="e#4110#4111#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="e#4179#4180#0" expanded="false" />
-            <element signature="e#4206#4207#0" expanded="false" />
-            <element signature="e#4246#4247#0" expanded="false" />
-            <element signature="e#4278#4279#0" expanded="false" />
-            <element signature="e#4310#4311#0" expanded="false" />
-            <element signature="e#4338#4339#0" expanded="false" />
-            <element signature="e#4380#4381#0" expanded="false" />
-            <element signature="e#4414#4415#0" expanded="false" />
-            <element signature="e#4446#4447#0" expanded="false" />
-            <element signature="e#4476#4477#0" expanded="false" />
-            <element signature="e#4520#4521#0" expanded="false" />
-            <element signature="e#4558#4559#0" expanded="false" />
-            <element signature="e#4596#4597#0" expanded="false" />
-            <element signature="e#4630#4631#0" expanded="false" />
-            <element signature="e#4684#4685#0" expanded="false" />
-            <element signature="e#4730#4731#0" expanded="false" />
-            <element signature="e#4763#4764#0" expanded="false" />
-            <element signature="e#4794#4795#0" expanded="false" />
-            <element signature="e#4840#4841#0" expanded="false" />
-            <element signature="e#4880#4881#0" expanded="false" />
-            <element signature="e#4915#4916#0" expanded="false" />
-            <element signature="e#4946#4947#0" expanded="false" />
-            <element signature="e#4994#4995#0" expanded="false" />
-            <element signature="e#5034#5035#0" expanded="false" />
-            <element signature="e#5071#5072#0" expanded="false" />
-            <element signature="e#5104#5105#0" expanded="false" />
-            <element signature="e#5156#5157#0" expanded="false" />
-            <element signature="e#5200#5201#0" expanded="false" />
-            <element signature="e#5236#5237#0" expanded="false" />
-            <element signature="e#5270#5271#0" expanded="false" />
-            <element signature="e#5322#5323#0" expanded="false" />
-            <element signature="e#5368#5369#0" expanded="false" />
-            <element signature="e#5404#5405#0" expanded="false" />
-            <element signature="e#5436#5437#0" expanded="false" />
-            <element signature="e#5486#5487#0" expanded="false" />
-            <element signature="e#5528#5529#0" expanded="false" />
-            <element signature="e#5565#5566#0" expanded="false" />
-            <element signature="e#5598#5599#0" expanded="false" />
-            <element signature="e#5650#5651#0" expanded="false" />
-            <element signature="e#5694#5695#0" expanded="false" />
-            <element signature="e#5748#5749#0" expanded="false" />
-            <element signature="e#5783#5784#0" expanded="false" />
-            <element signature="e#5839#5840#0" expanded="false" />
-            <element signature="e#5887#5888#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/Tjcdev.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/TjcFwqcs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#782#783#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#871#872#0" expanded="false" />
-            <element signature="e#903#904#0" expanded="false" />
-            <element signature="e#931#932#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1007#1008#0" expanded="false" />
-            <element signature="e#1037#1038#0" expanded="false" />
-            <element signature="e#1063#1064#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1162#1163#0" expanded="false" />
-            <element signature="e#1189#1190#0" expanded="false" />
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1261#1262#0" expanded="false" />
-            <element signature="e#1290#1291#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="false" />
-            <element signature="e#1351#1352#0" expanded="false" />
-            <element signature="e#1379#1380#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/TjcLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#672#673#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-            <element signature="e#736#737#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#854#855#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#910#911#0" expanded="false" />
-            <element signature="e#948#949#0" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1036#1037#0" expanded="false" />
-            <element signature="e#1074#1075#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/bean/TJcZfjg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1830,7 +1738,7 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1940,7 +1848,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2198,7 +2106,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2238,6 +2146,100 @@
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
+            <element signature="e#4274#4275#0" expanded="true" />
+            <element signature="e#4343#4344#0" expanded="true" />
+            <element signature="e#4473#4474#0" expanded="true" />
+            <element signature="e#4533#4534#0" expanded="true" />
+            <element signature="e#11769#11785#0" expanded="true" />
+            <element signature="e#13622#13638#0" expanded="true" />
+            <element signature="e#16924#16940#0" expanded="true" />
+            <marker date="1481459588000" expanded="true" signature="816:981" ph="select t1.ID... T_BASE_VEHICLE" />
+            <marker date="1481459588000" expanded="true" signature="1002:1320" ph="(select emp.... " />
+            <marker date="1481459588000" expanded="true" signature="1003:1286" ph="select emp.I... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="1855:2028" ph="select t1.ID... ID_VEHICLE" />
+            <marker date="1481459588000" expanded="true" signature="1904:2015" ph="select ID_VE... T_BASE_VEHICLE" />
+            <marker date="1481459588000" expanded="true" signature="2048:2283" ph="(select ID_V... " />
+            <marker date="1481459588000" expanded="true" signature="2049:2249" ph="select ID_VE... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="2897:2945" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="7943:8275" ph="select t1.NA... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="8649:8818" ph="select t1.NA... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="9164:9409" ph="select t1.NA... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="9810:9865" ph="select count... T_BASE_COM" />
+            <marker date="1481459588000" expanded="true" signature="10003:10056" ph="select count... T_BASE_VEHICLE" />
+            <marker date="1481459588000" expanded="true" signature="10003:10058" ph="select count... T_BASE_VEHICLE" />
+            <marker date="1481459588000" expanded="true" signature="10348:10479" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="10644:10720" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="10919:10975" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="11138:11229" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="11511:11559" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="11511:11561" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="12340:12409" ph="select count... T_BASE_VEHICLE" />
+            <marker date="1481459588000" expanded="true" signature="12560:12631" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="12806:12897" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="13183:13274" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="14011:14060" ph="select count... T_BASE_COM" />
+            <marker date="1481459588000" expanded="true" signature="14011:14062" ph="select count... T_BASE_COM" />
+            <marker date="1481459588000" expanded="true" signature="14198:14254" ph="select count... T_BASE_VEHICLE" />
+            <marker date="1481459588000" expanded="true" signature="14542:14621" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="14785:14841" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="15001:15092" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="15396:15444" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="15396:15445" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="15637:15792" ph="select ptsex... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="15904:16036" ph="select count... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="17520:17581" ph="select MENUI... T_FK_BASE_CZYMENU" />
+            <marker date="1481459588000" expanded="true" signature="17881:17945" ph="select count... T_FK_BUSI_BLACKLIST" />
+            <marker date="1481459588000" expanded="true" signature="18162:18213" ph="select count... T_FK_BASE_EMP_EXT" />
+            <marker date="1481459588000" expanded="true" signature="18657:18787" ph="select t.NAM... T_BASE_EMP" />
+            <marker date="1481459588000" expanded="true" signature="19574:19720" ph="SELECT to_ch... t_base_rolePriv" />
+            <marker date="1481459588000" expanded="true" signature="19879:19952" ph="SELECT to_ch... t_base_privileges" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/BbxxService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-606">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1481459666000" expanded="true" signature="998:1108" ph="select t.id,... t_jc_version" />
+            <marker date="1481459666000" expanded="true" signature="1838:1875" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/BlmbService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="89" column="102" selection-start-line="89" selection-start-column="102" selection-end-line="89" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/CldaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#2358#2367#0" expanded="true" />
+            <element signature="e#3770#3779#0" expanded="true" />
+            <marker date="1481459962000" expanded="true" signature="1864:2232" ph="select tbd.i... T_BASE_DEV" />
+            <marker date="1481459962000" expanded="true" signature="3534:3719" ph="select tbe.i... t_base_emp" />
           </folding>
         </state>
       </provider>
