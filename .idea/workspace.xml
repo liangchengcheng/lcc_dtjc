@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e34664ca-3bc2-47da-b038-eb3268880f57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/bean/TreeBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/WzxwService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/YhqxService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/ZfjgService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lcc/taxi/service/ZgzjService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lcc_dtjc.iws" />
@@ -27,20 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ScriptHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/ScriptHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SjhmdService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/SjhmdService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -151,16 +136,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YhqxService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="YhqxService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/YhqxService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="135" column="17" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
+            <state relative-caret-position="465">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3222#3232#0" expanded="true" />
                 <element signature="e#3812#3822#0" expanded="true" />
                 <element signature="e#4407#4417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZfjgService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/ZfjgService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="177" column="9" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZgzjService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/ZgzjService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,8 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AjclDao.java" />
-        <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/BlmbDao.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/dao/CldaDao.java" />
@@ -244,6 +251,8 @@
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/WzxwService.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/bean/TreeBean.java" />
         <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/YhqxService.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/ZfjgService.java" />
+        <option value="$PROJECT_DIR$/src/com/lcc/taxi/service/ZgzjService.java" />
       </list>
     </option>
   </component>
@@ -254,7 +263,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-36" />
+    <option name="x" value="283" />
     <option name="y" value="30" />
     <option name="width" value="1267" />
     <option name="height" value="737" />
@@ -358,36 +367,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lcc_dtjc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lcc_dtjc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lcc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -867,15 +846,15 @@
       <workItem from="1481069064394" duration="2399000" />
       <workItem from="1481156472371" duration="1625000" />
       <workItem from="1481240546319" duration="2685000" />
-      <workItem from="1481346361955" duration="16534000" />
+      <workItem from="1481346361955" duration="17721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51704000" />
+    <option name="totallyTimeSpent" value="52891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-36" y="30" width="1267" height="737" extended-state="0" />
+    <frame x="283" y="30" width="1267" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -936,33 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/AppxxDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#740#756#0" expanded="true" />
-            <marker date="1481356507000" expanded="true" signature="1928:1990" ph="UPDATE T_JC_... " />
-            <marker date="1481356507000" expanded="true" signature="2286:2331" ph="UPDATE T_JC_... " />
-            <marker date="1481356507000" expanded="true" signature="2528:2575" ph="UPDATE T_JC_... " />
-            <marker date="1481356507000" expanded="true" signature="2933:2978" ph="UPDATE T_JC_... " />
-            <marker date="1481356507000" expanded="true" signature="3176:3236" ph="select sbbm,... t_jc_dev" />
-            <marker date="1481356507000" expanded="true" signature="3550:3821" ph="select t.cz,... t_jc_logapp" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/dao/BlmbDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1736,13 +1688,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/YhqxService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" column="17" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
+        <state relative-caret-position="465">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3222#3232#0" expanded="true" />
             <element signature="e#3812#3822#0" expanded="true" />
             <element signature="e#4407#4417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/ZfjgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="177" column="9" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lcc/taxi/service/ZgzjService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
